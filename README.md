@@ -43,6 +43,7 @@ Please see the [LICENSE](LICENSE) file for details.
 
 * [do-framework](https://bit.ly/do-framework)
 * [depend-on-docker](https://bit.ly/do-docker-project)
-* [Ubuntu](https://ubuntu.com)
+* [cuda toolkit](https://developer.nvidia.com/cuda-toolkit)
+* [cuda image](https://hub.docker.com/r/nvidia/cuda/tags)
 * [nvtop](https://github.com/Syllo/nvtop)
 

@@ -1,8 +1,8 @@
-ARG BASE_IMAGE_PATH="ubuntu:latest"
+ARG BASE_IMAGE_PATH="nvidia/cuda:12.6.0-cudnn-runtime-ubuntu24.04"
 
 FROM $BASE_IMAGE_PATH
 
-ARG BUILD="20240815"
+ARG BUILD="20240816"
 ARG MAINTAINER="Full Name <email@company.com>"
 ARG DESCRIPTION="Depend on Docker Image"
 ARG http_proxy
