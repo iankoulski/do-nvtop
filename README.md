@@ -12,7 +12,7 @@ docker run -it --rm iankoulski/do-nvtop nvtop
 
 Run on Kubernetes using `kubectl`:
 ```bash
-kubectl apply -f https://github.com/iankoulski/do-nvtop/to/kubernetes/manifest/do-nvtop-daemonset.yaml
+kubectl apply -f https://bit.ly/do-nvtop-daemonset
 ```
 
 When running on Kubernetes, to view metrics, run:
@@ -37,4 +37,12 @@ The project contains the following scripts:
 * `exec.sh [cmd]` - open a shell or execute a specified command in the running container
 
 # License
-Please see the [LICENSE](LICENSE} file for details.
+Please see the [LICENSE](LICENSE) file for details.
+
+# References
+
+* [do-framework](https://bit.ly/do-framework)
+* [depend-on-docker](https://bit.ly/do-docker-project)
+* [Ubuntu](https://ubuntu.com)
+* [nvtop](https://github.com/Syllo/nvtop)
+
